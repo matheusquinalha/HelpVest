@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelpVest</string>
+    <string name="name_splash">HelpVest</string>
+    <string name="btn_livro">Livros</string>
+    <string name="btn_redacao">Redação</string>
+    <string name="btn_provas">Provas</string>
+    <string name="btn_universidades">Faculdades</string>
+    <string name="btn_historico">Histórico</string>
+    <string name="btn_continuando">Continuando...</string>
+</resources>
