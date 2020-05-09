@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Window;
 import android.view.WindowManager;
 
 import java.util.Objects;
@@ -23,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
         objHandler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent objItent = new Intent(SplashActivity.this, MainActivity.class);
+                Intent objItent = new Intent(SplashActivity.this, LoginActivity.class);
                 objItent.putExtra("Nome", "Matheus");
                 startActivity(objItent);
                 finish();
