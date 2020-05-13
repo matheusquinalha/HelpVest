@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="colorStart">#2b807a</color>
     <color name="colorCenter">#78bbb7</color>
     <color name="colorEnd">#83ccc7</color>
     <color name="colorPrimary">#2b807a</color>
     <color name="colorPrimaryDark">#78bbb7</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="teste1">#4facfe</color>
+    <color name="teste2">#c2e9fb</color>
+    <color name="teste3">#fdfbfb</color>
+    <color name="teste4">#ebedee</color>
+    <color name="teste5">#4facfe</color>
+    <color name="teste6">#00f2fe</color>
+    <color name="teste7">#89f7fe</color>
+    <color name="teste8">#66a6ff</color>
 
 </resources>

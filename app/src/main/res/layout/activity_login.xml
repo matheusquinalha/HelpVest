@@ -8,7 +8,7 @@
     android:background="@drawable/background_color">
 
     <Button
-        android:id="@+id/btnEntrar"
+        android:id="@+id/btnCriar"
         android:layout_width="234dp"
         android:layout_height="35dp"
         android:layout_marginTop="80dp"
@@ -19,7 +19,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ImgSplash" />
+        app:layout_constraintTop_toBottomOf="@+id/ImgSplash"
+        android:onClick="loginEntrar"/>
 
     <ImageView
         android:id="@+id/ImgSplash"
@@ -44,7 +45,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ImgSplash" />
+        app:layout_constraintTop_toBottomOf="@+id/ImgSplash"
+        android:onClick="loginCadastro"/>
 
 
     <TextView
