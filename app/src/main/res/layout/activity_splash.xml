@@ -9,10 +9,11 @@
 
     <TextView
         android:id="@+id/name_splash"
+        android:textSize="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:fontFamily="sans-serif-smallcaps"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/name_splash"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"

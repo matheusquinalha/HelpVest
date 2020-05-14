@@ -6,5 +6,10 @@
     <color name="colorPrimary">#2b807a</color>
     <color name="colorPrimaryDark">#78bbb7</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorDark">#090606</color>
+    <color name="colorbtn2">#E19ACC</color>
+    <color name="white">#fef9d7</color>
+    <color name="startColor">#93a5cf</color>
+    <color name="endColor">#e4efe9</color>
 
 </resources>

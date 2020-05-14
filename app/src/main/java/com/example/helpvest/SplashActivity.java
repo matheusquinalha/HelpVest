@@ -23,10 +23,9 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 Intent objItent = new Intent(SplashActivity.this, LoginActivity.class);
-                objItent.putExtra("Nome", "Matheus");
-                startActivity(objItent);
-                finish();
+                SplashActivity.this.startActivity(objItent);
+                SplashActivity.this.finish();
             }
-        }, 2000);
+        }, 5000);
     }
 }
