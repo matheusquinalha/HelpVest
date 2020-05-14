@@ -3,8 +3,15 @@
     <string name="app_name">HelpVest</string>
     <string name="name_splash">HelpVest</string>
     <string name="btnEntrar">Entrar</string>
+    <string name="btnEntraLog">Entrar</string>
     <string name="btnCadastro">Cadastrar-se</string>
     <string name="btnEsqueciSenha">Esqueci a senha</string>
     <string name="textTitle">HelpVest</string>
+    <string name="edtNome">Digite seu nome...</string>
+    <string name="edtEmail">Digite seu Email...</string>
+    <string name="edtSenha">Digite sua Senha...</string>
+    <string name="edtConfSenha">Confirme sua Senha...</string>
+
+
 
 </resources>

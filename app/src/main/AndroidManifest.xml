@@ -19,6 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginEntrarActivity" />
+        <activity android:name=".CadastroActivity"/>
     </application>
 
 </manifest>
