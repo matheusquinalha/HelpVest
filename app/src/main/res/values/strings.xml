@@ -11,6 +11,9 @@
     <string name="edtEmail">Digite seu Email...</string>
     <string name="edtSenha">Digite sua Senha...</string>
     <string name="edtConfSenha">Confirme sua Senha...</string>
+    <string name="btnLogin">Login</string>
+    <string name="txtViewSenha">Senha</string>
+    <string name="txtViewEmail">E-mail</string>
 
 
 

@@ -8,31 +8,14 @@
     android:orientation="vertical"
     android:background="@drawable/background_color">
 
-<<<<<<< HEAD
-=======
-    <Button
-        android:id="@+id/btnCriar"
-        android:layout_width="234dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="80dp"
-        android:background="@drawable/button_shape"
-        android:text="@string/btnEntrar"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ImgSplash"
-        android:onClick="loginEntrar"/>
 
->>>>>>> 9bee3d299dab3c2c46f3a0edb971f8bcce9bff05
     <ImageView
-        android:layout_width="277dp"
-        android:layout_height="187dp"
+        android:id="@+id/imgLogo"
+        android:layout_width="239dp"
+        android:layout_height="0dp"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
-        android:src="@drawable/imglogo"
-        />
+        android:src="@drawable/imglogo" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,22 +25,12 @@
             android:layout_height="wrap_content"
             android:textSize="40sp"
             android:textStyle="bold"
-            android:text="HELP"
+            android:text="@string/app_name"
             android:textColor="@color/colorDark"
             android:fontFamily="sans-serif-condensed-medium"
             />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:textStyle="bold"
-            android:text="VEST"
-            android:textColor="@color/colorDark"
-            android:fontFamily="sans-serif-condensed-medium"
-            android:drawablePadding="20dp" />
-    </LinearLayout>
 
-<<<<<<< HEAD
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -73,7 +46,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="E-mail"
+                android:text="@string/txtViewEmail"
                 android:drawableStart="@drawable/ic_email_black_24dp"
                 android:textColor="@color/colorDark"
                 android:textSize="18sp" />
@@ -82,9 +55,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Insira seu email"
-                android:inputType="textEmailAddress" />
+                android:hint="@string/edtEmail"
+                android:inputType="textEmailAddress"
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -93,7 +67,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Senha"
+                android:text="@string/txtViewSenha"
                 android:drawableStart="@drawable/ic_lock_black_24dp"
                 android:textColor="@color/colorDark"
                 android:textSize="18sp"
@@ -103,25 +77,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Insira sua senha"
+                android:hint="@string/edtSenha"
                 android:inputType="textPassword" />
         </LinearLayout>
-=======
-    <Button
-        android:id="@+id/btnCadastro"
-        android:text="@string/btnCadastro"
-        android:layout_width="245dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="150dp"
-        android:background="@drawable/button_shape"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ImgSplash"
-        android:onClick="loginCadastro"/>
->>>>>>> 9bee3d299dab3c2c46f3a0edb971f8bcce9bff05
 
         <TextView
             android:id="@+id/errorLogin"
@@ -147,9 +105,10 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/rounded"
             android:backgroundTint="@color/colorbtn2"
-            android:text="login"
+            android:text="@string/btnLogin"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/colorDark" />
+            android:textColor="@color/colorDark"
+            android:onClick="loginEntrar"/>
 
         <Button
             android:id="@+id/btnCadastrar"
@@ -158,9 +117,10 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/rounded"
             android:backgroundTint="@color/colorbtn2"
-            android:text="Cadastrar-se"
+            android:text="@string/btnCadastro"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/colorDark" />
+            android:textColor="@color/colorDark"
+            android:onClick="loginCadastro"/>
     </LinearLayout>
 
     <TextView  android:id="@+id/txwForgetPasswordLogin"
@@ -170,5 +130,5 @@
         android:layout_marginBottom="20dp"
         android:textAlignment="center"
         android:textColor="@color/colorDark"
-        android:text="Esqueceu a senha?"/>.
+        android:text="@string/btnEsqueciSenha"/>
 </LinearLayout>

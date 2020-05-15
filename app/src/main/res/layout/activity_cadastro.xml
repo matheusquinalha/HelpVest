@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-=======
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> 9bee3d299dab3c2c46f3a0edb971f8bcce9bff05
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CadastroActivity"
-    android:background="@drawable/background_color">
+    android:background="@drawable/background_color"
+    android:weightSum="1"
+    tools:context=".CadastroActivity">
 
-<<<<<<< HEAD
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView2"
@@ -32,32 +29,33 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/colorDark"
                     android:drawableStart="@drawable/ic_email_black_24dp"
                     android:drawablePadding="5dp"
-                    android:textSize="18sp"
                     android:text="E-mail"
-                     />
+                    android:textColor="@color/colorDark"
+                    android:textSize="18sp" />
+
                 <EditText
                     android:id="@+id/etwEmailRegister"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Digite seu e-mail"
-                    android:inputType="textEmailAddress"
-                    />
+                    android:inputType="textEmailAddress" />
             </LinearLayout>
 
             <LinearLayout
@@ -69,34 +67,37 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawablePadding="5dp"
                     android:drawableStart="@drawable/ic_lock_black_24dp"
+                    android:drawablePadding="5dp"
                     android:text="Senha"
                     android:textColor="@color/colorDark"
                     android:textSize="18sp" />
+
                 <EditText
                     android:id="@+id/etwPasswordRegister"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Digite sua senha"
-                    android:inputType="textPassword"/>
+                    android:inputType="textPassword" />
+
                 <EditText
                     android:id="@+id/etwRePasswordRegister"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Confirme a sua senha"
-                    android:inputType="textPassword"/>
+                    android:inputType="textPassword" />
             </LinearLayout>
+
             <TextView
                 android:id="@+id/errorRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                android:visibility="gone"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                android:visibility="gone" />
         </LinearLayout>
 
         <LinearLayout
@@ -128,81 +129,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</ScrollView>
-=======
-
-    <ImageView
-        android:id="@+id/imgSplash"
-        android:layout_width="141dp"
-        android:layout_height="98dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.089"
-        app:srcCompat="@drawable/imglogo" />
-
-    <EditText
-        android:id="@+id/edtNome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:hint="@string/edtNome"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgSplash" />
-
-    <EditText
-        android:id="@+id/edtEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="@string/edtEmail"
-        android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtNome" />
-
-    <EditText
-        android:id="@+id/edtSenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="@string/edtSenha"
-        android:inputType="numberPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
-
-    <EditText
-        android:id="@+id/edtConfSenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="@string/edtConfSenha"
-        android:inputType="numberPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtSenha" />
-
-    <Button
-        android:id="@+id/btnCriar"
-        android:layout_width="234dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="180dp"
-        android:background="@drawable/button_shape"
-        android:text="@string/btnEntraLog"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
->>>>>>> 9bee3d299dab3c2c46f3a0edb971f8bcce9bff05
+</LinearLayout>
