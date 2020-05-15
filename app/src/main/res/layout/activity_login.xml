@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/edtEmail"
-                android:inputType="textEmailAddress"
+                android:inputType="textEmailAddress"/>
         </LinearLayout>
 
         <LinearLayout
@@ -103,24 +103,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="@drawable/rounded"
+            android:background="@drawable/ripple"
             android:backgroundTint="@color/colorbtn2"
+            android:onClick="loginEntrar"
             android:text="@string/btnLogin"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/colorDark"
-            android:onClick="loginEntrar"/>
+            android:textColor="@color/colorDark" />
 
         <Button
             android:id="@+id/btnCadastrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@drawable/rounded"
+            android:background="@drawable/ripple"
             android:backgroundTint="@color/colorbtn2"
+            android:onClick="loginCadastro"
             android:text="@string/btnCadastro"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/colorDark"
-            android:onClick="loginCadastro"/>
+            android:textColor="@color/colorDark" />
     </LinearLayout>
 
     <TextView  android:id="@+id/txwForgetPasswordLogin"

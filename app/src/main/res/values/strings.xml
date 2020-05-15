@@ -5,6 +5,7 @@
     <string name="btnEntrar">Entrar</string>
     <string name="btnEntraLog">Entrar</string>
     <string name="btnCadastro">Cadastrar-se</string>
+    <string name="txtViewCadastro">Cadastre-se</string>
     <string name="btnEsqueciSenha">Esqueci a senha</string>
     <string name="textTitle">HelpVest</string>
     <string name="edtNome">Digite seu nome...</string>
@@ -14,6 +15,10 @@
     <string name="btnLogin">Login</string>
     <string name="txtViewSenha">Senha</string>
     <string name="txtViewEmail">E-mail</string>
+    <string name="btnRedacao">Redação</string>
+    <string name="btnProvas">Provas</string>
+    <string name="btnLivro">Livros</string>
+    <string name="btnEstudo">Estudos</string>
 
 
 

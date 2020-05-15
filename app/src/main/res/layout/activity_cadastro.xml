@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="CADASTRE-SE"
+            android:text="@string/txtViewCadastro"
             android:textAlignment="center"
             android:textColor="@color/colorDark"
             android:textSize="30sp"
@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_email_black_24dp"
                     android:drawablePadding="5dp"
-                    android:text="E-mail"
+                    android:text="@string/txtViewEmail"
                     android:textColor="@color/colorDark"
                     android:textSize="18sp" />
 
@@ -54,7 +54,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Digite seu e-mail"
+                    android:hint="@string/edtEmail"
                     android:inputType="textEmailAddress" />
             </LinearLayout>
 
@@ -69,7 +69,7 @@
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_lock_black_24dp"
                     android:drawablePadding="5dp"
-                    android:text="Senha"
+                    android:text="@string/txtViewSenha"
                     android:textColor="@color/colorDark"
                     android:textSize="18sp" />
 
@@ -78,7 +78,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Digite sua senha"
+                    android:hint="@string/edtSenha"
                     android:inputType="textPassword" />
 
                 <EditText
@@ -86,7 +86,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Confirme a sua senha"
+                    android:hint="@string/edtConfSenha"
                     android:inputType="textPassword" />
             </LinearLayout>
 
@@ -112,9 +112,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/rounded"
+                android:background="@drawable/ripple"
                 android:backgroundTint="@color/colorbtn2"
-                android:text="Cadastrar-se"
+                android:text="@string/btnCadastro"
                 android:textColor="@color/colorDark" />
 
             <Button
@@ -122,9 +122,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/rounded"
+                android:background="@drawable/ripple"
                 android:backgroundTint="@color/colorbtn2"
-                android:text="Login"
+                android:text="@string/btnLogin"
                 android:textColor="@color/colorDark" />
         </LinearLayout>
     </LinearLayout>
