@@ -23,6 +23,7 @@
     <string name="btnRecuperar">Recuperar</string>
     <string name="btnCancelar">Cancelar</string>
     <string name="btnEsqueciasenha">Esqueci a senha</string>
+    <string name="action_settings">Settings</string>
 
 
 </resources>
