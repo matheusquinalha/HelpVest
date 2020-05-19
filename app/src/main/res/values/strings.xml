@@ -10,6 +10,7 @@
     <string name="textTitle">HelpVest</string>
     <string name="edtNome">Digite seu nome...</string>
     <string name="edtEmail">Digite seu Email...</string>
+    <string name="edtInformeseuemail">Informe seu E-mail...</string>
     <string name="edtSenha">Digite sua Senha...</string>
     <string name="edtConfSenha">Confirme sua Senha...</string>
     <string name="btnLogin">Login</string>
@@ -19,7 +20,9 @@
     <string name="btnProvas">Provas</string>
     <string name="btnLivro">Livros</string>
     <string name="btnEstudo">Estudos</string>
-
+    <string name="btnRecuperar">Recuperar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnEsqueciasenha">Esqueci a senha</string>
 
 
 </resources>

@@ -21,6 +21,16 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         Button btnCadastrar = findViewById(R.id.btnCadastrar);
+        Button btnEsqueciasenha = findViewById(R.id.btnEsqueciasenha);
+
+        btnEsqueciasenha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mIntent = new Intent(LoginActivity.this, Esqueceu_senhaActivity.class);
+                startActivity(mIntent);
+            }
+        });
+
 
         btnCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
