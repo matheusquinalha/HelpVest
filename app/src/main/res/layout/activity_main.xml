@@ -12,12 +12,6 @@
     <include
         layout="@layout/toolbar_activity"/>
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:logo="@drawable/ic_menu"
-        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button4"

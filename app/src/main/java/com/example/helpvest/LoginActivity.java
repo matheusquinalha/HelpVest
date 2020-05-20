@@ -4,12 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.view.View;
 import android.widget.Button;
 import android.view.WindowManager;
-
-import java.util.Objects;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -19,13 +16,14 @@ public class LoginActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_login);
 
+
         Button btnCadastrar = findViewById(R.id.btnCadastrar);
         Button btnEsqueciasenha = findViewById(R.id.btnEsqueciasenha);
 
         btnEsqueciasenha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent mIntent = new Intent(LoginActivity.this, Esqueceu_senhaActivity.class);
+                Intent mIntent = new Intent(LoginActivity.this, EsqueceuSenhaActivity.class);
                 startActivity(mIntent);
             }
         });
@@ -39,13 +37,13 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
-        public void loginEntrar(View view){
+    public void loginEntrar(View view){
 
-            Intent intent1 = new Intent(getApplicationContext(),MainActivity.class);
-            startActivity(intent1);
-        }
+        Intent intent1 = new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(intent1);
+    }
 
-        public void loginCadastro(View view){
+    public void loginCadastro(View view){
 
         Intent intent1 = new Intent(getApplicationContext(),CadastroActivity.class);
         startActivity(intent1);

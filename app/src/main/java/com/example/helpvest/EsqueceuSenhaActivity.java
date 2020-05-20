@@ -4,26 +4,24 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
-
-public class CadastroActivity extends AppCompatActivity {
+public class EsqueceuSenhaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_cadastro);
+        setContentView(R.layout.activity_esqueceu_senha);
 
-        Button btnLoginRegister = findViewById(R.id.btnLoginRegister);
+        Button btnCancelar = findViewById(R.id.btnCancelar);
 
-        btnLoginRegister.setOnClickListener(new View.OnClickListener() {
+        btnCancelar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent mIntent = new Intent(CadastroActivity.this, LoginActivity.class);
+                Intent mIntent = new Intent(EsqueceuSenhaActivity.this, LoginActivity.class);
                 startActivity(mIntent);
             }
         });
@@ -34,4 +32,3 @@ public class CadastroActivity extends AppCompatActivity {
         startActivity(intent1);
     }
 }
-
