@@ -21,5 +21,7 @@
     <color name="teste6">#00f2fe</color>
     <color name="teste7">#89f7fe</color>
     <color name="teste8">#66a6ff</color>
+    <color name="colorPrimaryToolbar">#4facfe</color>
+
 
 </resources>
