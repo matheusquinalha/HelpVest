@@ -18,7 +18,7 @@
     <string name="txtViewEmail">E-mail</string>
     <string name="btnRedacao">Redação</string>
     <string name="btnProvas">Provas</string>
-    <string name="btnLivro">Livros</string>
+    <string name="btnLivro">Biblioteca</string>
     <string name="btnEstudo">Estudos</string>
     <string name="btnRecuperar">Recuperar</string>
     <string name="btnCancelar">Cancelar</string>

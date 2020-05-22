@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".UnicampBibliotecaActivity"></activity>
+        <activity android:name=".BibliotecaActivity" />
         <activity android:name=".activity_esqueci_senha" />
         <activity android:name=".EsqueceuSenhaActivity" />
         <activity android:name=".MainActivity" />

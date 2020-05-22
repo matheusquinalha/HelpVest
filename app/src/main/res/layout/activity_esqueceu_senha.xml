@@ -58,7 +58,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/ripple"
-                    android:backgroundTint="@color/colorbtn2"
                     android:text="@string/btnRecuperar"
                     android:textColor="@color/colorDark" />
 
@@ -69,7 +68,6 @@
                     android:onClick="voltarLogin"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/ripple"
-                    android:backgroundTint="@color/colorbtn2"
                     android:text="@string/btnCancelar"
                     android:textColor="@color/colorDark"/>
             </LinearLayout>

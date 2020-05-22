@@ -4,6 +4,10 @@
         <shape>
             <solid android:color="#FFFFFF"/>
             <corners android:radius="25dp"/>
+            <gradient android:angle="90"
+                android:startColor="#d299c2"
+                android:endColor="#fef9d7"
+                android:type="linear"/>
         </shape>
     </item>
 </ripple>

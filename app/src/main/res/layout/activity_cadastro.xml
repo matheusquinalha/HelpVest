@@ -113,7 +113,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/ripple"
-                android:backgroundTint="@color/colorbtn2"
                 android:text="@string/btnCadastro"
                 android:textColor="@color/colorDark" />
 
@@ -124,7 +123,6 @@
                 android:layout_marginTop="10dp"
                 android:onClick="voltarLogin"
                 android:background="@drawable/ripple"
-                android:backgroundTint="@color/colorbtn2"
                 android:text="@string/btnCancelar"
                 android:textColor="@color/colorDark" />
 
