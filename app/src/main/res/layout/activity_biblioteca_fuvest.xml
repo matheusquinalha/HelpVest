@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_main_activity"
-    tools:context=".UnicampBibliotecaActivity"
+    tools:context=".FuvestBibliotecaActivity"
     >
 
     <TableRow
@@ -25,7 +25,7 @@
         android:id="@+id/textViewBibliotecaFuvest"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Biblioteca Unicamp"
+        android:text="Biblioteca Fuvest"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +48,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="25dp"
-                android:text="Livro" />
+                android:text="@string/txtViewLivro" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -69,16 +69,16 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/textViewLivroQuincasBorba"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Soneto" />
+                android:text="Poemas Escollhidos" />
 
             <TextView
                 android:id="@+id/textViewPoemasEscolhidos"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Camões " />
+                android:text="Gregório de Matos" />
 
             <CheckBox
                 android:id="@+id/checkBox"
@@ -94,29 +94,7 @@
                 android:id="@+id/textViewLIvroQuincasBorba"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Sobrevivendo no Inferno " />
-
-            <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
-                android:layout_width="198dp"
-                android:layout_height="50dp"
-                android:text="Grupo Racionais" />
-
-            <CheckBox
-                android:id="@+id/checkBox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
-                android:layout_width="172dp"
-                android:layout_height="wrap_content"
-                android:text="O Espelho" />
+                android:text="Quincas Borba" />
 
             <TextView
                 android:id="@+id/textViewPoemasEscolhidos"
@@ -138,13 +116,13 @@
                 android:id="@+id/textViewLIvroQuincasBorba"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="O marinheiro " />
+                android:text="Claro Enigma" />
 
             <TextView
                 android:id="@+id/textViewPoemasEscolhidos"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Fernando Pessoas" />
+                android:text="Carlos Drummond de Andrade" />
 
             <CheckBox
                 android:id="@+id/checkBox"
@@ -160,13 +138,13 @@
                 android:id="@+id/textViewLIvroQuincasBorba"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="A Falência" />
+                android:text="Angústia" />
 
             <TextView
                 android:id="@+id/textViewPoemasEscolhidos"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Júlia Lopes de Almeida" />
+                android:text="Graciliano Ramos" />
 
             <CheckBox
                 android:id="@+id/checkBox"
@@ -182,13 +160,13 @@
                 android:id="@+id/textViewLIvroQuincasBorba"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="O Ateneu " />
+                android:text="Relíquia" />
 
             <TextView
                 android:id="@+id/textViewPoemasEscolhidos"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Raul Pompeia " />
+                android:text="Eça de Queirós " />
 
             <CheckBox
                 android:id="@+id/checkBox"
@@ -204,13 +182,79 @@
                 android:id="@+id/textViewLIvroQuincasBorba"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Sermões" />
+                android:text="Mayombe" />
 
             <TextView
                 android:id="@+id/textViewPoemasEscolhidos"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Antonio Vieira " />
+                android:text="Pepetela" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLIvroQuincasBorba"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:text="Sagarana" />
+
+            <TextView
+                android:id="@+id/textViewPoemasEscolhidos"
+                android:layout_width="198dp"
+                android:layout_height="50dp"
+                android:text="Guimarães Rosa" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLIvroQuincasBorba"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:text="O Cortiço" />
+
+            <TextView
+                android:id="@+id/textViewPoemasEscolhidos"
+                android:layout_width="198dp"
+                android:layout_height="50dp"
+                android:text="Aluíso Azevedo" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewLIvroQuincasBorba"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:text="Minha Vida de Menina" />
+
+            <TextView
+                android:id="@+id/textViewPoemasEscolhidos"
+                android:layout_width="198dp"
+                android:layout_height="50dp"
+                android:text="Helena Morley" />
 
             <CheckBox
                 android:id="@+id/checkBox"

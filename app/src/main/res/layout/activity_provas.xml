@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_main_activity"
-    tools:context=".BibliotecaActivity">
+    tools:context=".ProvasActivity">
 
     <TableRow
         android:id="@+id/tableRow"
@@ -33,10 +34,10 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/btnBibliotecaUnicamp"
+                android:id="@+id/btnProvasUnicamp"
                 android:layout_width="150dp"
                 android:layout_height="140dp"
-                android:onClick="EntrarBibliotecaUnicamp"
+                android:onClick="EntrarProvasUnicamp"
                 android:text="@string/btnUnicamp" />
 
             <TextView
@@ -45,10 +46,10 @@
                 android:layout_height="wrap_content" />
 
             <Button
-                android:id="@+id/btnBibliotecaFuvest"
+                android:id="@+id/btnProvasFuvest"
                 android:layout_width="150dp"
                 android:layout_height="140dp"
-                android:onClick="EntrarBibliotecaFuvest"
+                android:onClick="EntrarProvasFuvest"
                 android:text="@string/btnFuvest" />
         </TableRow>
 

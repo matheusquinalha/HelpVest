@@ -25,7 +25,7 @@
         android:id="@+id/textViewBibliotecaFuvest"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Biblioteca Unicamp"
+        android:text="Provas Unicamp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,7 @@
 
             <TextView
                 android:id="@+id/textView9"
-                android:layout_width="wrap_content"
+                android:layout_width="105dp"
                 android:layout_height="25dp"
                 android:text="Livro" />
 

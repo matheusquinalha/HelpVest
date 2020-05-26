@@ -6,19 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_main_activity"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
 
     <include
         layout="@layout/toolbar_activity"/>
 
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnRedacao"
         android:layout_width="140dp"
         android:layout_height="75dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="30dp"
+        android:onClick="EntrarRedacao"
         android:background="@drawable/ripple"
         android:text="@string/btnRedacao"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEstudos"
         android:layout_width="140dp"
         android:layout_height="75dp"
         android:layout_marginStart="30dp"
@@ -49,7 +49,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="90dp"
         android:background="@drawable/ripple"
-        android:onClick="loginEntrarBiblioteca"
+        android:onClick="EntrarBiblioteca"
         android:text="@string/btnLivro"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/colorDark"
@@ -58,11 +58,12 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnProvas"
         android:layout_width="140dp"
         android:layout_height="75dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
+        android:onClick="EntrarProvas"
         android:background="@drawable/ripple"
         android:text="@string/btnProvas"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"

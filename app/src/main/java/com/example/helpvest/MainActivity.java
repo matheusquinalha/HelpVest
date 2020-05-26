@@ -37,10 +37,42 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btnProvas = findViewById(R.id.btnProvas);
+
+        btnProvas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mIntent = new Intent(MainActivity.this, ProvasActivity.class);
+                startActivity(mIntent);
+            }
+        });
+
+        Button btnRedacao = findViewById(R.id.btnRedacao);
+
+        btnRedacao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mIntent = new Intent(MainActivity.this, RedacaoActivity.class);
+                startActivity(mIntent);
+            }
+        });
+
+
+
     }
 
-    public void loginEntrarBiblioteca(View view){
+    public void EntrarBiblioteca(View view){
         Intent intent1 = new Intent(getApplicationContext(),BibliotecaActivity.class);
+        startActivity(intent1);
+    }
+
+    public void EntrarProvas(View view){
+        Intent intent1 = new Intent(getApplicationContext(),ProvasActivity.class);
+        startActivity(intent1);
+    }
+
+    public void EntrarRedacao(View view){
+        Intent intent1 = new Intent(getApplicationContext(),RedacaoActivity.class);
         startActivity(intent1);
     }
 

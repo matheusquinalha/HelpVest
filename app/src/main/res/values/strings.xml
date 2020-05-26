@@ -24,6 +24,12 @@
     <string name="btnCancelar">Cancelar</string>
     <string name="btnEsqueciasenha">Esqueci a senha</string>
     <string name="action_settings">Settings</string>
+    <string name="txtUnicamp">Unicamp</string>
+    <string name="txtFuvest">Fuvest</string>
+    <string name="txtEnem">Enem</string>
+    <string name="btnUnicamp">Unicamp</string>
+    <string name="btnFuvest">Fuvest</string>
+    <string name="txtViewLivro">Livro</string>
 
 
 </resources>

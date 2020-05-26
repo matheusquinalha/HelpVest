@@ -22,20 +22,34 @@ public class BibliotecaActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button btnUnicamp = findViewById(R.id.btnUnicamp);
-        btnUnicamp.setOnClickListener(new View.OnClickListener() {
+        Button btnBibliotecaUnicamp = findViewById(R.id.btnBibliotecaUnicamp);
+        btnBibliotecaUnicamp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent mIntent = new Intent(BibliotecaActivity.this, UnicampBibliotecaActivity.class);
                 startActivity(mIntent);
             }
         });
+        Button btnBiliotecaFuvest = findViewById(R.id.btnBibliotecaFuvest);
+        btnBiliotecaFuvest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mIntent = new Intent(BibliotecaActivity.this, FuvestBibliotecaActivity.class);
+                startActivity(mIntent);
+            }
+        });
     }
-    public void loginEntrarBibliotecaUnicamp(View view){
+    public void EntrarBibliotecaUnicamp(View view){
 
         Intent intent1 = new Intent(getApplicationContext(),UnicampBibliotecaActivity.class);
         startActivity(intent1);
     }
+    public void EntrarBibliotecaFuvest(View view){
+
+        Intent intent1 = new Intent(getApplicationContext(),FuvestBibliotecaActivity.class);
+        startActivity(intent1);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
