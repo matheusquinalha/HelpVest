@@ -57,6 +57,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btnEstudos = findViewById(R.id.btnEstudos);
+
+        btnEstudos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mIntent = new Intent(MainActivity.this, EstudoActivity.class);
+                startActivity(mIntent);
+            }
+        });
+
 
 
     }
@@ -73,6 +83,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void EntrarRedacao(View view){
         Intent intent1 = new Intent(getApplicationContext(),RedacaoActivity.class);
+        startActivity(intent1);
+    }
+    public void EntrarEstudo(View view){
+        Intent intent1 = new Intent(getApplicationContext(),EstudoActivity.class);
         startActivity(intent1);
     }
 

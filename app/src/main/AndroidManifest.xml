@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FuvestProvasActivity"></activity>
+        <activity android:name=".EstudoActivity"></activity>
+        <activity android:name=".FuvestProvasActivity" />
         <activity android:name=".UnicampProvasActivity" />
         <activity android:name=".ProvasActivity" />
         <activity android:name=".RedacaoActivity" />
