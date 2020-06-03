@@ -11,52 +11,58 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="239dp"
-        android:layout_height="0dp"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:src="@drawable/imglogo" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:gravity="center">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="@string/app_name"
             android:textColor="@color/colorDark"
-            android:fontFamily="sans-serif-condensed-medium"
-            />
+            android:textSize="40sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/txtViewEmail"
                 android:drawableStart="@drawable/ic_email_black_24dp"
+                android:text="@string/txtViewEmail"
                 android:textColor="@color/colorDark"
                 android:textSize="18sp" />
+
             <EditText
                 android:id="@+id/etwEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/edtEmail"
-                android:inputType="textEmailAddress"/>
+                android:inputType="textEmailAddress" />
         </LinearLayout>
 
         <LinearLayout
@@ -64,14 +70,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/txtViewSenha"
                 android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:text="@string/txtViewSenha"
                 android:textColor="@color/colorDark"
-                android:textSize="18sp"
-                />
+                android:textSize="18sp" />
+
             <EditText
                 android:id="@+id/etwPassword"
                 android:layout_width="match_parent"
@@ -87,8 +94,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:visibility="gone"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:visibility="gone" />
     </LinearLayout>
 
     <LinearLayout
@@ -96,6 +103,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:orientation="vertical">
 
         <Button
@@ -121,14 +129,14 @@
             android:textColor="@color/colorDark" />
     </LinearLayout>
 
-    <Button android:id="@+id/btnEsqueciasenha"
+    <Button
+        android:id="@+id/btnEsqueciasenha"
         android:layout_width="200dp"
         android:layout_height="25dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="30dp"
         android:background="@drawable/ripple"
+        android:text="@string/btnEsqueciasenha"
         android:textAlignment="center"
-        android:textColor="@color/colorDark"
-       android:text="@string/btnEsqueciasenha"
-        />
+        android:textColor="@color/colorDark" />
 </LinearLayout>

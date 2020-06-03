@@ -48,13 +48,13 @@
                 android:id="@+id/textView9"
                 android:layout_width="105dp"
                 android:layout_height="25dp"
-                android:text="Livro" />
+                android:text="@string/txtViewLivro" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Autor" />
+                android:text="@string/txtViewAutor" />
 
             <TextView
                 android:id="@+id/textView7"

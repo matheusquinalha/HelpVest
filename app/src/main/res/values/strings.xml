@@ -30,6 +30,7 @@
     <string name="btnUnicamp">Unicamp</string>
     <string name="btnFuvest">Fuvest</string>
     <string name="txtViewLivro">Livro</string>
+    <string name="txtViewAutor">Autor</string>
 
 
 </resources>
