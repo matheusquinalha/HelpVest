@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <item
-        android:title="Ajustes"
+        android:title="@string/btnAjusteToolbar"
         android:id="@+id/btnMenuAjuste"/>
     <item
-        android:title="Configurações"
+        android:title="@string/btnConfiguracoesToolbar"
         android:id="@+id/btnMenuConfiguracoes"/>
     <item
-        android:title="Sair"
+        android:title="@string/btnSairToolbar"
         android:id="@+id/btnMenuSair"/>
-
 </menu>

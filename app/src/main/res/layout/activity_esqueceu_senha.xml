@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="Recuperar Senha"
+            android:text="@string/txtViewRecuperarSenha"
             android:textAlignment="center"
             android:textColor="@color/colorDark"
             android:textSize="30sp" />
@@ -35,7 +35,7 @@
                 android:drawableStart="@drawable/ic_email_black_24dp"
                 android:drawablePadding="5dp"
                 android:hint="@string/edtInformeseuemail"
-                android:text="Informe seu E-mail"
+                android:text="@string/txtViewInformeseuemailEsqueceuSenha"
                 android:textColor="@color/colorDark"
                 android:textSize="18sp"/>
 
@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/edtEmail"
+                android:hint="@string/edtEmailEsqueceuSenha"
                 android:inputType="textEmailAddress" />
 
             <LinearLayout
@@ -68,7 +68,7 @@
                     android:onClick="voltarLogin"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/ripple"
-                    android:text="@string/btnCancelar"
+                    android:text="@string/btnCancelarEsqueceuSenha"
                     android:textColor="@color/colorDark"/>
             </LinearLayout>
         </LinearLayout>

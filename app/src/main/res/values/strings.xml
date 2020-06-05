@@ -1,36 +1,140 @@
 <resources>
-
-    <string name="app_name">HelpVest</string>
+    <!--  Strings Splash Activity  -->
     <string name="name_splash">HelpVest</string>
-    <string name="btnEntrar">Entrar</string>
-    <string name="btnEntraLog">Entrar</string>
-    <string name="btnCadastro">Cadastrar-se</string>
-    <string name="txtViewCadastro">Cadastre-se</string>
+
+    <!--  Strings Esqueceu Senha Activity  -->
+    <string name="txtViewInformeseuemailEsqueceuSenha">Informe seu E-mail</string>
+    <string name="txtViewRecuperarSenha">Recuperar Senha</string>
+    <string name="btnRecuperar">Recuperar</string>
+    <string name="btnCancelarEsqueceuSenha">Cancelar</string>
+    <string name="edtEmailEsqueceuSenha">Digite seu Email...</string>
+
+
+    <!--  Strings Login Activity  -->
+    <string name="btnLogin">Login</string>
+    <string name="btnCadastroLogin">Cadastrar-se</string>
     <string name="btnEsqueciSenha">Esqueci a senha</string>
-    <string name="textTitle">HelpVest</string>
+    <string name="edtEmailLogin">Digite seu Email...</string>
+    <string name="edtSenhaLogin">Digite sua Senha...</string>
+    <string name="app_name">HelpVest</string>
+
+
+    <!--  Strings Cadastro Activity  -->
+    <string name="txtViewSenha">Senha</string>
+    <string name="txtViewEmail">E-mail</string>
+    <string name="txtViewCadastro">Cadastre-se</string>
     <string name="edtNome">Digite seu nome...</string>
     <string name="edtEmail">Digite seu Email...</string>
     <string name="edtInformeseuemail">Informe seu E-mail...</string>
     <string name="edtSenha">Digite sua Senha...</string>
     <string name="edtConfSenha">Confirme sua Senha...</string>
-    <string name="btnLogin">Login</string>
-    <string name="txtViewSenha">Senha</string>
-    <string name="txtViewEmail">E-mail</string>
-    <string name="btnRedacao">Redação</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnCadastro">Cadastrar-se</string>
+
+    <!--  Strings Menu Toolbar  -->
+    <string name="btnAjusteToolbar">Ajustes</string>
+    <string name="btnConfiguracoesToolbar">Configurações</string>
+    <string name="btnSairToolbar">Sair</string>
+
+    <!--  Strings Estudo Activity  -->
+
+    <!--  Strings Main Activity  -->
     <string name="btnProvas">Provas</string>
     <string name="btnLivro">Biblioteca</string>
     <string name="btnEstudo">Estudos</string>
-    <string name="btnRecuperar">Recuperar</string>
-    <string name="btnCancelar">Cancelar</string>
-    <string name="btnEsqueciasenha">Esqueci a senha</string>
-    <string name="action_settings">Settings</string>
-    <string name="txtUnicamp">Unicamp</string>
-    <string name="txtFuvest">Fuvest</string>
-    <string name="txtEnem">Enem</string>
-    <string name="btnUnicamp">Unicamp</string>
-    <string name="btnFuvest">Fuvest</string>
-    <string name="txtViewLivro">Livro</string>
-    <string name="txtViewAutor">Autor</string>
+    <string name="btnRedacao">Redação</string>
 
+    <!--  Strings Biblioteca Geral  -->
+    <string name="txtViewLivro">LIVROS</string>
+    <string name="txtViewAutor">AUTOR</string>
+    <string name="txtViewLido">LIDO</string>
+    <string name="btnBibliotecaUnicamp">Unicamp</string>
+    <string name="btnBibliotecaFuvest">Fuvest</string>
 
+    <!--  Strings Prova Geral  -->
+    <string name="txtViewProva">PROVAS</string>
+    <string name="txtViewGabarito">GABARITOS</string>
+    <string name="txtViewFeito">FEITO</string>
+    <string name="btnProvaUnicamp">Unicamp</string>
+    <string name="btnProvaFuvest">Fuvest</string>
+
+    <!--  LIVROS  -->
+
+    <!--  Strings Biblioteca Unicamp  -->
+    <string name="txtViewBibliotecaUnicamp">Biblioteca Unicamp</string>
+    <string name="txtViewLivro1Unicamp">Soneto</string>
+    <string name="txtViewAutor1Unicamp">Camões</string>
+    <string name="txtViewLivro2Unicamp">Sobrevivendo no Inferno</string>
+    <string name="txtViewAutor2Unicamp">Grupo Racionais</string>
+    <string name="txtViewLivro3Unicamp">O Espelho</string>
+    <string name="txtViewAutor3Unicamp">Machado de Assis</string>
+    <string name="txtViewLivro4Unicamp">O Marinheiro</string>
+    <string name="txtViewAutor4Unicamp">Fernando Pessoas</string>
+    <string name="txtViewLivro5Unicamp">A Falência</string>
+    <string name="txtViewAutor5Unicamp">Júlia Lopes de Almeida</string>
+    <string name="txtViewLivro6Unicamp">O Ateneu</string>
+    <string name="txtViewAutor6Unicamp">Raul Pompeia</string>
+    <string name="txtViewLivro7Unicamp">Sermões</string>
+    <string name="txtViewAutor7Unicamp">Antonio Vieira</string>
+
+    <!--  Strings Biblioteca Fuvest  -->
+    <string name="txtViewBibliotecaFuvest">Biblioteca Fuvest</string>
+    <string name="txtViewLivro1Fuvest">Poemas Escolhidos</string>
+    <string name="txtViewAutor1Fuvest">Gregório de Matos</string>
+    <string name="txtViewLivro2Fuvest">Quincas Borba</string>
+    <string name="txtViewAutor2Fuvest">Machado de Assis</string>
+    <string name="txtViewLivro3Fuvest">Claro Enigma</string>
+    <string name="txtViewAutor3Fuvest">Carlos Drummond de Andrade</string>
+    <string name="txtViewLivro4Fuvest">Angústia</string>
+    <string name="txtViewAutor4Fuvest">Graciliano Ramos</string>
+    <string name="txtViewLivro5Fuvest">Relíquia</string>
+    <string name="txtViewAutor5Fuvest">Eça de Queiros</string>
+    <string name="txtViewLivro6Fuvest">Mayombe</string>
+    <string name="txtViewAutor6Fuvest">Pepetela</string>
+    <string name="txtViewLivro7Fuvest">Sagarana</string>
+    <string name="txtViewAutor7Fuvest">Guimarães Rosa</string>
+    <string name="txtViewLivro8Fuvest">O Cortiço</string>
+    <string name="txtViewAutor8Fuvest">Aluíso Azevedo</string>
+    <string name="txtViewLivro9Fuvest">Minha Vida de Menina</string>
+    <string name="txtViewAutor9Fuvest">Helena Morley</string>
+
+    <!--  PROVAS  -->
+
+    <!--  Strings Prova Fuvest  -->
+    <string name="txtViewProvaFuvest">Provas Fuvest</string>
+    <string name="txtViewProva1Fuvest">Prova 1</string>
+    <string name="txtViewGabarito1Fuvest">Gabarito 1</string>
+    <string name="txtViewProva2Fuvest">Prova 2</string>
+    <string name="txtViewGabarito2Fuvest">Gabarito 2</string>
+    <string name="txtViewProva3Fuvest">Prova 3</string>
+    <string name="txtViewGabarito3Fuvest">Gabarito 3</string>
+    <string name="txtViewProva4Fuvest">Prova 4</string>
+    <string name="txtViewGabarito4Fuvest">Gabarito 4</string>
+    <string name="txtViewProva5Fuvest">Prova 5</string>
+    <string name="txtViewGabarito5Fuvest">Gabarito 5</string>
+    <string name="txtViewProva6Fuvest">Prova 6</string>
+    <string name="txtViewGabarito6Fuvest">Gabarito 6</string>
+    <string name="txtViewProva7Fuvest">Prova 7</string>
+    <string name="txtViewGabarito7Fuvest">Gabarito 7</string>
+    <string name="txtViewProva8Fuvest">Prova 8</string>
+    <string name="txtViewGabarito8Fuvest">Gabarito 8</string>
+    <string name="txtViewProva9Fuvest">Prova 9</string>
+    <string name="txtViewGabarito9Fuvest">Gabarito 9</string>
+
+    <!--  Strings Prova Unicamp  -->
+    <string name="txtViewProvaUnicamp">Provas Unicamp</string>
+    <string name="txtViewProva1Unicamp">Prova 1</string>
+    <string name="txtViewGabarito1Unicamp">Gabarito 1</string>
+    <string name="txtViewProva2Unicamp">Prova 2</string>
+    <string name="txtViewGabarito2Unicamp">Gabarito 2</string>
+    <string name="txtViewProva3Unicamp">Prova 3</string>
+    <string name="txtViewGabarito3Unicamp">Gabarito 3</string>
+    <string name="txtViewProva4Unicamp">Prova 4</string>
+    <string name="txtViewGabarito4Unicamp">Gabarito 4</string>
+    <string name="txtViewProva5Unicamp">Prova 5</string>
+    <string name="txtViewGabarito5Unicamp">Gabarito 5</string>
+    <string name="txtViewProva6Unicamp">Prova 6</string>
+    <string name="txtViewGabarito6Unicamp">Gabarito 6</string>
+    <string name="txtViewProva7Unicamp">Prova 7</string>
+    <string name="txtViewGabarito7Unicamp">Gabarito 7</string>
 </resources>

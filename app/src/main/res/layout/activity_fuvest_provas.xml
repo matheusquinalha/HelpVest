@@ -25,7 +25,8 @@
         android:id="@+id/textViewBibliotecaFuvest"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Provas Fuvest"
+        android:layout_marginTop="5dp"
+        android:text="@string/txtViewProvaFuvest"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,8 +36,11 @@
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="673dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewBibliotecaFuvest">
@@ -46,22 +50,30 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/txtViewProvaFuvest"
                 android:layout_width="wrap_content"
                 android:layout_height="25dp"
-                android:text="Livro" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/txtViewGabaritoFuvest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Autor" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/txtViewFeitoFuvest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lido" />
+                android:text="@string/txtViewFeito"
+                android:textAlignment="center"
+                android:textStyle="bold" />
         </TableRow>
 
 
@@ -70,19 +82,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva1Fuvest"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Poemas Escollhidos" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva1Fuvest"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito1Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Gregório de Matos" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito1Fuvest"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -92,19 +108,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva2Fuvest"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Quincas Borba" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva2Fuvest"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito2Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Machado de Assis" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito2Fuvest"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -114,19 +134,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva3Fuvest"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Claro Enigma" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva3Fuvest"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito3Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Carlos Drummond de Andrade" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito3Fuvest"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -136,19 +160,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva4Fuvest"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Angústia" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva4Fuvest"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito4Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Graciliano Ramos" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito4Fuvest"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -158,19 +186,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva5Fuvest"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Relíquia" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva5Fuvest"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito5Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Eça de Queirós " />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito5Fuvest"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -180,19 +212,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva6Fuvest"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Mayombe" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva6Fuvest"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito6Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Pepetela" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito6Fuvest"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -202,19 +238,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva7Fuvest"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Sagarana" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva7Fuvest"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito7Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Guimarães Rosa" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito7Fuvest"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -224,19 +264,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva8Fuvest"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="O Cortiço" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva8Fuvest"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito8Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Aluíso Azevedo" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito8Fuvest"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -246,24 +290,26 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva9Fuvest"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Minha Vida de Menina" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva9Fuvest"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito9Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Helena Morley" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito9Fuvest"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
-
-
 
 
     </TableLayout>

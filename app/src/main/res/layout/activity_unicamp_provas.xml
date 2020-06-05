@@ -25,7 +25,9 @@
         android:id="@+id/textViewBibliotecaFuvest"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Provas Unicamp"
+        android:layout_marginTop="5dp"
+        android:text="@string/txtViewProvaUnicamp"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,8 +36,12 @@
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="673dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewBibliotecaFuvest">
@@ -45,22 +51,30 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/txtViewProvaUnicamp"
                 android:layout_width="105dp"
                 android:layout_height="25dp"
-                android:text="@string/txtViewLivro" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/txtViewGabaritoUnicamp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txtViewAutor" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/txtViewFeitoUnicamp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lido" />
+                android:text="@string/txtViewFeito"
+                android:textAlignment="center"
+                android:textStyle="bold" />
         </TableRow>
 
 
@@ -69,19 +83,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva1Unicamp"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Soneto" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva1Unicamp"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito1Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Camões " />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito1Unicamp"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -91,19 +109,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva2Unicamp"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Sobrevivendo no Inferno " />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva2Unicamp"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito2Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Grupo Racionais" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito2Unicamp"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -113,19 +135,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva3Unicamp"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="O Espelho" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva3Unicamp"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito3Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Machado de Assis" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito3Unicamp"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -135,19 +161,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva4Unicamp"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="O marinheiro " />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva4Unicamp"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito4Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Fernando Pessoas" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito4Unicamp"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -157,19 +187,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva5Unicamp"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="A Falência" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva5Unicamp"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito5Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Júlia Lopes de Almeida" />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito5Unicamp"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -179,19 +213,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva6Unicamp"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="O Ateneu " />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva6Unicamp"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito6Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Raul Pompeia " />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito6Unicamp"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -201,24 +239,26 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textViewLIvroQuincasBorba"
+                android:id="@+id/txtViewProva7Unicamp"
                 android:layout_width="172dp"
                 android:layout_height="wrap_content"
-                android:text="Sermões" />
+                android:layout_weight="1"
+                android:text="@string/txtViewProva7Unicamp"
+                android:textAlignment="viewStart" />
 
             <TextView
-                android:id="@+id/textViewPoemasEscolhidos"
+                android:id="@+id/txtViewGabarito7Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
-                android:text="Antonio Vieira " />
+                android:layout_weight="1"
+                android:text="@string/txtViewGabarito7Unicamp"
+                android:textAlignment="viewStart" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
-
-
 
 
     </TableLayout>

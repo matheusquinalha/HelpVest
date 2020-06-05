@@ -61,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/edtEmail"
+                android:hint="@string/edtEmailLogin"
                 android:inputType="textEmailAddress" />
         </LinearLayout>
 
@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/edtSenha"
+                android:hint="@string/edtSenhaLogin"
                 android:inputType="textPassword" />
         </LinearLayout>
 
@@ -124,7 +124,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/ripple"
             android:onClick="loginCadastro"
-            android:text="@string/btnCadastro"
+            android:text="@string/btnCadastroLogin"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/colorDark" />
     </LinearLayout>
@@ -136,7 +136,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="30dp"
         android:background="@drawable/ripple"
-        android:text="@string/btnEsqueciasenha"
+        android:text="@string/btnEsqueciSenha"
         android:textAlignment="center"
         android:textColor="@color/colorDark" />
 </LinearLayout>
