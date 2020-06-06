@@ -85,6 +85,7 @@
                 android:textIsSelectable="false"
                 android:textSize="15sp"
                 android:textStyle="bold" />
+
         </TableRow>
 
 
@@ -98,21 +99,23 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro1Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor1Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor1Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaFuvest1"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -126,21 +129,23 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro2Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor2Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor2Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaFuvest2"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -153,21 +158,23 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro3Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor3Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor3Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaFuvest3"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -180,21 +187,23 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro4Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor4Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor4Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaFuvest4"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -208,21 +217,23 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro5Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor5Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor5Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaFuvest5"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -236,21 +247,23 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro6Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor6Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor6Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaFuvest6"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -263,21 +276,23 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro7Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor7Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor7Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaFuvest7"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -290,21 +305,23 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro8Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor8Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor8Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaFuvest8"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -317,21 +334,23 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro9Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor9Fuvest"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor9Fuvest"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaFuvest9"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download" />
+
         </TableRow>
 
 

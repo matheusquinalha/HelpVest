@@ -47,16 +47,10 @@
     <!--  Strings Biblioteca Geral  -->
     <string name="txtViewLivro">LIVROS</string>
     <string name="txtViewAutor">AUTOR</string>
-    <string name="txtViewLido">LIDO</string>
+    <string name="txtViewLido">BAIXAR</string>
     <string name="btnBibliotecaUnicamp">Unicamp</string>
     <string name="btnBibliotecaFuvest">Fuvest</string>
-
-    <!--  Strings Prova Geral  -->
-    <string name="txtViewProva">PROVAS</string>
-    <string name="txtViewGabarito">GABARITOS</string>
-    <string name="txtViewFeito">FEITO</string>
-    <string name="btnProvaUnicamp">Unicamp</string>
-    <string name="btnProvaFuvest">Fuvest</string>
+    <string name="btnBibliotecaEnem">Enem</string>
 
     <!--  LIVROS  -->
 
@@ -99,6 +93,14 @@
     <string name="txtViewAutor9Fuvest">Helena Morley</string>
 
     <!--  PROVAS  -->
+
+    <!--  Strings Prova Geral  -->
+    <string name="txtViewProva">PROVAS</string>
+    <string name="txtViewGabarito">GABARITOS</string>
+    <string name="txtViewFeito">FEITO</string>
+    <string name="btnProvaUnicamp">Unicamp</string>
+    <string name="btnProvaFuvest">Fuvest</string>
+    <string name="btnProvaEnem">Enem</string>
 
     <!--  Strings Prova Fuvest  -->
     <string name="txtViewProvaFuvest">Provas Fuvest</string>

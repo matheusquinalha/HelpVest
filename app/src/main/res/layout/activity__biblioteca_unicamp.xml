@@ -93,20 +93,24 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro1Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor1Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor1Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaUnicamp1"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download"
+                app:srcCompat="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -115,24 +119,28 @@
 
             <TextView
                 android:id="@+id/txtViewLivro2Unicamp"
-                android:layout_width="172dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro2Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor2Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor2Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaUnicamp2"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download"
+                app:srcCompat="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -145,20 +153,24 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro3Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor3Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor3Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaUnicamp3"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download"
+                app:srcCompat="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -171,20 +183,24 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro4Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor4Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor4Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaUnicamp5"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download"
+                app:srcCompat="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -197,7 +213,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro5Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor5Unicamp"
@@ -205,12 +221,16 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor5Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart"
+                android:layout_marginStart="15dp" />
 
-            <CheckBox
-                android:id="@+id/checkBox5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaUnicamp6"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download"
+                app:srcCompat="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -223,20 +243,24 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro6Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor6Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor6Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaUnicamp7"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download"
+                app:srcCompat="@drawable/ic_download" />
+
         </TableRow>
 
         <TableRow
@@ -249,20 +273,24 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/txtViewLivro7Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
             <TextView
                 android:id="@+id/txtViewAutor7Unicamp"
                 android:layout_width="198dp"
                 android:layout_height="50dp"
+                android:layout_marginStart="15dp"
                 android:layout_weight="1"
                 android:text="@string/txtViewAutor7Unicamp"
-                android:textAlignment="center" />
+                android:textAlignment="viewStart" />
 
-            <CheckBox
-                android:id="@+id/checkBox7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDownloadBibliotecaUnicamp8"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_download"
+                app:srcCompat="@drawable/ic_download" />
+
         </TableRow>
 
 

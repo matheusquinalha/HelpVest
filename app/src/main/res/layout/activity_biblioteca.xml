@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,59 +7,47 @@
     android:background="@drawable/background_main_activity"
     tools:context=".BibliotecaActivity">
 
-    <TableRow
-        android:id="@+id/tableRow"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:weightSum="1">
 
         <include layout="@layout/toolbar_activity" />
 
-    </TableRow>
+        <Button
+            android:id="@+id/btnBibliotecaUnicamp"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_shape"
+            android:onClick="EntrarBibliotecaUnicamp"
+            android:text="@string/btnBibliotecaUnicamp"
+            android:textSize="16sp" />
 
-    <TableLayout
-        android:id="@+id/tableLayout2"
-        android:layout_width="0dp"
-        android:layout_height="673dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableRow">
+        <Button
+            android:id="@+id/btnBibliotecaFuvest"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_shape"
+            android:onClick="EntrarBibliotecaFuvest"
+            android:text="@string/btnBibliotecaFuvest"
+            android:textSize="16sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnBibliotecaEnem"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/btnBibliotecaEnem" />
 
-            <Button
-                android:id="@+id/btnBibliotecaUnicamp"
-                android:layout_width="150dp"
-                android:layout_height="140dp"
-                android:background="@drawable/button_shape"
-                android:onClick="EntrarBibliotecaUnicamp"
-                android:text="@string/btnBibliotecaUnicamp"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content" />
-
-            <Button
-                android:id="@+id/btnBibliotecaFuvest"
-                android:layout_width="150dp"
-                android:layout_height="140dp"
-                android:background="@drawable/button_shape"
-                android:onClick="EntrarBibliotecaFuvest"
-                android:text="@string/btnBibliotecaFuvest"
-                android:textSize="18sp" />
-
-        </TableRow>
-
-    </TableLayout>
+    </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
