@@ -2,13 +2,11 @@ package com.example.helpvest;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.widget.TextView;
-
 import java.util.Random;
 
 public class RedacaoActivity extends AppCompatActivity {

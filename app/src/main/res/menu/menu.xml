@@ -7,6 +7,6 @@
         android:title="@string/btnConfiguracoesToolbar"
         android:id="@+id/btnMenuConfiguracoes"/>
     <item
-        android:title="@string/btnSairToolbar"
-        android:id="@+id/btnMenuSair"/>
+        android:id="@+id/btnMenuSair"
+        android:title="@string/btnSairToolbar" />
 </menu>

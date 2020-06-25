@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
-import android.widget.Button;
 
 public class ProvasActivity extends AppCompatActivity {
 
@@ -18,25 +17,6 @@ public class ProvasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_provas);
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        Button btnProvasUnicamp = findViewById(R.id.btnProvasUnicamp);
-        btnProvasUnicamp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent mIntent = new Intent(ProvasActivity.this, UnicampProvasActivity.class);
-                startActivity(mIntent);
-            }
-        });
-
-
-        Button btnProvasFuvest = findViewById(R.id.btnProvasFuvest);
-        btnProvasFuvest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent mIntent = new Intent(ProvasActivity.this, FuvestProvasActivity.class);
-                startActivity(mIntent);
-            }
-        });
     }
     public void EntrarProvasUnicamp(View view){
 
@@ -46,7 +26,7 @@ public class ProvasActivity extends AppCompatActivity {
 
     public void EntrarProvasFuvest(View view){
 
-        Intent intent1 = new Intent(getApplicationContext(),FuvestProvasActivity.class);
+        Intent intent1 = new Intent(getApplicationContext(),MainActivity2.class);
         startActivity(intent1);
     }
     @Override
