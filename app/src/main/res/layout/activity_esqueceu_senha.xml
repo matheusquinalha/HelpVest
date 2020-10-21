@@ -9,9 +9,11 @@
     tools:context=".EsqueceuSenhaActivity">
 
     <LinearLayout
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="315dp"
         android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
         android:orientation="vertical">
 
         <TextView
@@ -37,10 +39,10 @@
                 android:hint="@string/edtInformeseuemail"
                 android:text="@string/txtViewInformeseuemailEsqueceuSenha"
                 android:textColor="@color/colorDark"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/etwEmailForgetPassword"
+                android:id="@+id/etwEmailForget"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -57,7 +59,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:background="@drawable/ripple"
+                    android:background="@drawable/button_shape"
                     android:text="@string/btnRecuperar"
                     android:textColor="@color/colorDark" />
 
@@ -65,11 +67,11 @@
                     android:id="@+id/btnCancelar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="voltarLogin"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/ripple"
+                    android:background="@drawable/button_shape"
+                    android:onClick="voltarLogin"
                     android:text="@string/btnCancelarEsqueceuSenha"
-                    android:textColor="@color/colorDark"/>
+                    android:textColor="@color/colorDark" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

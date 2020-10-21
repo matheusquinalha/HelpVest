@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "724191815294",
+    "firebase_url": "https://helpvest-f9821.firebaseio.com",
+    "project_id": "helpvest-f9821",
+    "storage_bucket": "helpvest-f9821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724191815294:android:18f1574e4a478c4e519a2f",
+        "android_client_info": {
+          "package_name": "com.example.helpvest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724191815294-ln4ua3ifer7u2ot0up0s3bd08v28g1b3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.helpvest",
+            "certificate_hash": "3d80f50c6648d372694d3cdba554cf469b89a0c8"
+          }
+        },
+        {
+          "client_id": "724191815294-iqgipchjkkohj22brb9thh5gofv6cl7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNUWgwS7hFAc5T96wqqRUGxlnGjtgylyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724191815294-iqgipchjkkohj22brb9thh5gofv6cl7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

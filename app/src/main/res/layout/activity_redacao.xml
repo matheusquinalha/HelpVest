@@ -53,7 +53,8 @@
             android:id="@+id/txtViewTema"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -64,12 +65,23 @@
         <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTintMode="add"
+            android:capitalize="none"
+            android:cursorVisible="true"
             android:ems="10"
+            android:freezesText="false"
             android:gravity="start|top"
+            android:hint="Treine sua redação aqui..."
             android:inputType="textMultiLine"
             android:maxLines="30"
-            android:minLines="7" />
+            android:minLines="7"
+            android:numeric="signed"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:scrollbars="horizontal" />
     </LinearLayout>
 
 </LinearLayout>

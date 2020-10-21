@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,18 +19,19 @@
         <Button
             android:id="@+id/btnBibliotecaUnicamp"
             android:layout_width="150dp"
-            android:layout_height="90dp"
+            android:layout_height="75dp"
             android:layout_marginStart="125dp"
             android:layout_marginTop="40dp"
+            android:layout_marginEnd="125dp"
             android:background="@drawable/button_shape"
-            android:onClick="EntrarBibliotecaUnicamp"
+            android:onClick="entrarBibliotecaUnicamp"
             android:text="@string/btnBibliotecaUnicamp"
             android:textSize="16sp" />
 
         <Button
             android:id="@+id/btnBibliotecaFuvest"
             android:layout_width="150dp"
-            android:layout_height="90dp"
+            android:layout_height="75dp"
             android:layout_marginStart="125dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/button_shape"
@@ -41,13 +42,13 @@
         <Button
             android:id="@+id/btnBibliotecaEnem"
             android:layout_width="150dp"
-            android:layout_height="90dp"
+            android:layout_height="75dp"
             android:layout_marginStart="125dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/button_shape"
-            android:text="@string/btnBibliotecaEnem" />
+            android:onClick="EntrarBibliotecaUnesp"
+            android:text="@string/btnBibliotecaUnesp"
+            android:textSize="16sp" />
 
     </LinearLayout>
-
-
 </LinearLayout>

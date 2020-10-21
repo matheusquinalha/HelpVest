@@ -18,9 +18,10 @@
         <Button
             android:id="@+id/btnProvasFuvest"
             android:layout_width="150dp"
-            android:layout_height="90dp"
+            android:layout_height="75dp"
             android:layout_marginStart="125dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="125dp"
             android:background="@drawable/button_shape"
             android:onClick="EntrarProvasFuvest"
             android:text="@string/btnProvaFuvest"
@@ -29,7 +30,7 @@
         <Button
             android:id="@+id/btnProvasUnicamp"
             android:layout_width="150dp"
-            android:layout_height="90dp"
+            android:layout_height="75dp"
             android:layout_marginStart="125dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/button_shape"
@@ -40,11 +41,11 @@
         <Button
             android:id="@+id/btnProvasEnem"
             android:layout_width="150dp"
-            android:layout_height="90dp"
+            android:layout_height="75dp"
             android:layout_marginStart="125dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/button_shape"
-            android:onClick="EntrarProvasUnicamp"
+            android:onClick="EntrarProvasEnem"
             android:text="@string/btnProvaEnem"
             android:textSize="18sp" />
     </LinearLayout>

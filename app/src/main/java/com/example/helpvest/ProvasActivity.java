@@ -3,6 +3,7 @@ package com.example.helpvest;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -19,15 +20,19 @@ public class ProvasActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
     }
     public void EntrarProvasUnicamp(View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://helpvesttcc.000webhostapp.com/ProvaUnicamp.html"));
+        startActivity(intent);
+    }
 
-        Intent intent1 = new Intent(getApplicationContext(),UnicampProvasActivity.class);
-        startActivity(intent1);
+
+    public void EntrarProvasEnem(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://helpvesttcc.000webhostapp.com/ProvaEnem.html"));
+        startActivity(intent);
     }
 
     public void EntrarProvasFuvest(View view){
-
-        Intent intent1 = new Intent(getApplicationContext(),MainActivity2.class);
-        startActivity(intent1);
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://helpvesttcc.000webhostapp.com/ProvaEnem.html"));
+        startActivity(intent);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

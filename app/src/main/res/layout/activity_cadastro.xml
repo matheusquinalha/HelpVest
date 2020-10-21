@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_color"
     android:weightSum="1"
-    tools:context=".CadastroActivity">
+    tools:context=".CadastroActivity"
+    android:orientation="horizontal">
 
 
     <LinearLayout
@@ -69,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_lock_black_24dp"
                     android:drawablePadding="5dp"
-                    android:text="@string/txtViewSenha"
+                    android:text="@string/txtViewSenhaCadastro"
                     android:textColor="@color/colorDark"
                     android:textSize="18sp" />
 
@@ -81,13 +82,6 @@
                     android:hint="@string/edtSenha"
                     android:inputType="textPassword" />
 
-                <EditText
-                    android:id="@+id/etwRePasswordRegister"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="@string/edtConfSenha"
-                    android:inputType="textPassword" />
             </LinearLayout>
 
             <TextView
@@ -112,7 +106,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/ripple"
+                android:background="@drawable/button_shape"
                 android:text="@string/btnCadastro"
                 android:textColor="@color/colorDark" />
 
@@ -120,9 +114,9 @@
                 android:id="@+id/btnLoginRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_shape"
                 android:onClick="voltarLogin"
-                android:background="@drawable/ripple"
                 android:text="@string/btnCancelar"
                 android:textColor="@color/colorDark" />
 
