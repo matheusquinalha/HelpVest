@@ -31,7 +31,7 @@ public class ProvasActivity extends AppCompatActivity {
     }
 
     public void EntrarProvasFuvest(View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://helpvesttcc.000webhostapp.com/ProvaEnem.html"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://helpvesttcc.000webhostapp.com/ProvaFuvest.html"));
         startActivity(intent);
     }
     @Override
