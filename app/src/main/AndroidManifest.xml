@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.helpvest">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/logotipo_novo"
@@ -9,28 +11,37 @@
         android:roundIcon="@mipmap/logotipo_novo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EstudoActivity" />
-        <activity android:name=".FuvestProvasActivity" />
-        <activity android:name=".UnicampProvasActivity" />
+        <activity android:name=".EstudoActivity"/>
         <activity android:name=".ProvasActivity" />
         <activity android:name=".RedacaoActivity" />
-        <activity android:name=".FuvestBibliotecaActivity" />
-        <activity android:name=".UnicampBibliotecaActivity" />
         <activity android:name=".BibliotecaActivity" />
         <activity android:name=".EsqueceuSenhaActivity" />
         <activity android:name=".CadastroActivity" />
         <activity android:name=".LoginActivity" />
-        <!-- TESTES E APRESENTAÇÃO SEM A PARTE DO LOGIN -->
-        <activity android:name=".MainActivity" >
+        <activity android:name=".EstudoSemana1Activity" />
+        <activity android:name=".EstudoSemana2Activity" />
+        <activity android:name=".EstudoSemana3Activity" />
+        <activity android:name=".EstudoSemana4Activity" />
+
+
+        <activity android:name=".MainActivity">
+            <!-- TESTES E APRESENTAÇÃO SEM A PARTE DO LOGIN -->
+
 
         </activity>
-        <!-- APP COMPLETO, INCLUINDO LOGIN -->
-        <activity android:name=".SplashActivity">
+
+
+
+        <activity android:name=".SplashActivity" >
+            <!-- APP COMPLETO, INCLUINDO LOGIN -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
+
 </manifest>

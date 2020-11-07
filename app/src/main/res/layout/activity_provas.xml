@@ -11,15 +11,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:baselineAligned="false"
         android:orientation="vertical">
 
         <include layout="@layout/toolbar_activity" />
 
         <Button
-            android:id="@+id/btnProvasFuvest"
+            android:id="@+id/btnEstudoSemana1"
             android:layout_width="150dp"
             android:layout_height="75dp"
             android:layout_marginStart="125dp"
+            android:layout_marginLeft="125dp"
             android:layout_marginTop="40dp"
             android:layout_marginEnd="125dp"
             android:background="@drawable/button_shape"
@@ -28,22 +30,28 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnProvasUnicamp"
+            android:id="@+id/btnEstudoSemana2"
             android:layout_width="150dp"
             android:layout_height="75dp"
             android:layout_marginStart="125dp"
+            android:layout_marginLeft="125dp"
             android:layout_marginTop="30dp"
+            android:layout_marginEnd="125dp"
+            android:layout_marginRight="125dp"
             android:background="@drawable/button_shape"
             android:onClick="EntrarProvasUnicamp"
             android:text="@string/btnProvaUnicamp"
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btnProvasEnem"
+            android:id="@+id/btnEstudoSemana3"
             android:layout_width="150dp"
             android:layout_height="75dp"
             android:layout_marginStart="125dp"
+            android:layout_marginLeft="125dp"
             android:layout_marginTop="30dp"
+            android:layout_marginEnd="125dp"
+            android:layout_marginRight="125dp"
             android:background="@drawable/button_shape"
             android:onClick="EntrarProvasEnem"
             android:text="@string/btnProvaEnem"

@@ -38,6 +38,10 @@
     <string name="btnSairToolbar">Sair</string>
 
     <!--  Strings Estudo Activity  -->
+    <string name="btnEstudoSemana1">Semana 1</string>
+    <string name="btnEstudoSemana2">Semana 2</string>
+    <string name="btnEstudoSemana3">Semana 3</string>
+    <string name="btnEstudoSemana4">Semana 4</string>
 
     <!--  Strings Main Activity  -->
     <string name="btnProvas">Provas</string>

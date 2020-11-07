@@ -25,6 +25,12 @@ public class RedacaoActivity extends AppCompatActivity {
             "Racismo e Discriminação Social",
             "Expectativa de Vida",
             "Redução da Maioridade Penal",
+            "Desvalorização Monetária no Brasil",
+            "Privatização ou Terceirização?",
+            "Saúde Nutricional",
+            "O Envelhecimento e os Direitos da População Idosa",
+            "Os Efeitos dos Desastres Ambientais",
+            "Movimento Antivacina"
     };
     private Toolbar toolbar;
 
@@ -40,7 +46,7 @@ public class RedacaoActivity extends AppCompatActivity {
 
     public void selecionarTema (View v){
         Random random = new Random();
-        int value = random.nextInt(7);
+        int value = random.nextInt(17);
         String temaSorteado = temas[value];
         txtViewTema.setText(temaSorteado);
         System.out.println(String.format("ID: %s, - %s", value, temas[value]));

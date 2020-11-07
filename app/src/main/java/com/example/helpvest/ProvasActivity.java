@@ -34,6 +34,8 @@ public class ProvasActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://helpvesttcc.000webhostapp.com/ProvaFuvest.html"));
         startActivity(intent);
     }
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
